@@ -1,0 +1,77 @@
+
+            body {
+                font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, 'Liberation Sans', 'Roboto', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック' , '游ゴシック体' , YuGothic , 'Yu Gothic', 'ＭＳ ゴシック' , 'MS Gothic', system-ui, sans-serif;
+                text-align:center;
+                background-color:var(--main-bg); 
+            }
+
+            #profile {
+                width:10em;
+                height:10em;
+                overflow:hidden;
+                margin:auto;
+                margin-top:10vh;
+                border-radius:10em;
+            }
+
+            #profile img {
+                width:100%;
+            }
+
+            h1 {
+                margin-bottom:0;
+                padding-bottom:0;
+                color:var(--primary);
+            }
+
+            .intro {
+                margin:0;
+                padding:0;
+                margin-bottom:2em;
+                color:var(--primary);
+                opacity: 0.7;
+            }
+
+            .button {
+                display: block;
+                max-width: 250px;
+                width:80%;
+                margin:auto;
+                background-color:var(--primary);
+                color:var(--main-bg);
+                padding:1em;
+                border-radius:var(--radius);
+                margin-bottom:1em;
+                text-decoration: none;
+                transition:all ease-in .25s;
+                border:3px var(--primary) solid;
+            }
+
+            .button:hover {
+                background-color:var(--main-bg);;
+                border:3px var(--primary) solid;
+                color:var(--primary);
+            }
+
+            .round-links {
+                margin-bottom: 2em;
+            }
+
+            .round-links .button {
+                width:2em;
+                height:2em;
+                border-radius:2em;
+                display:inline-block;
+                line-height:2em;
+                margin:0.5em;
+                padding:0;
+                color:var(--primary);
+                border:2px var(--primary) solid;
+                background-color:var(--main-bg);;
+            }
+
+            .round-links .button:hover {
+                background-color:var(--primary);
+                color:var(--main-bg);;
+                border-color:var(--primary);
+            }
