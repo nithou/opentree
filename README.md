@@ -2,6 +2,8 @@
 
 This is my small alternative to Linktree, using basic html with the comments indicating the usage :)
 
+You can see it in use [on my website](https://nithou.net/)
+
 Feel free ot use is for whatever
 
 ## License
